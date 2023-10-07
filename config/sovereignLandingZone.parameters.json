@@ -101,7 +101,7 @@
     "parDeployDdosProtection": {
       "type": "bool",
       "usedBy": "all, platform and compliance",
-      "defaultValue": true,
+      "defaultValue": false,
       "value": null,
       "description": "Toggles deployment of Azure DDOS protection. True to deploy, otherwise false."
     },
@@ -122,7 +122,7 @@
     "parUsePremiumFirewall": {
       "type": "bool",
       "usedBy": "all and platform",
-      "defaultValue": true,
+      "defaultValue": false,
       "value": null,
       "description": "Toggles deployment of the Premium SKU for Azure Firewall and only used if parEnableFirewall is enabled. True to use Premium SKU, otherwise false."
     },
@@ -279,7 +279,7 @@
     "parDeployBastion": {
       "type": "bool",
       "usedBy": "all and platform",
-      "defaultValue": true,
+      "defaultValue": false,
       "value": null,
       "description": "Toggles deployment of Azure Bastion. True to deploy, otherwise false."
     },
